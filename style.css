@@ -1107,7 +1107,12 @@ nav ul {  margin: 14px auto 0;}
 }
 
 @media (max-width: 900px) {
-
+.maxbredd img {
+  display: table;
+  height: auto;
+  margin: 0 auto;
+  width: 70%;
+}
 .hundralinks .clickhere{width: 100%;}
 .clickhere {
   border: 1px solid white;
