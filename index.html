@@ -1,0 +1,455 @@
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Be inspired by the latest tech, entertained by Sweden’s hottest musical exports and connect with the greatest minds of our time. This is a chance to invest in or partner up with tomorrow’s stars within tech and music before the rest of the world catches on.">
+    <meta name="keywords" content="GLOBAL MUSIC BUSINESS, LISTED COMPANIES, MUSIC AND TECH EVENT">
+    <meta name="author" content="At Night Management">
+    <title>WELCOME TO THE CREATIVE CAPITAL OF THE WORLD - SYMPOSIUM</title>
+    <link rel="shortcut icon" href="/images/Symposium_logo_bl_master.png" type="image/x-icon" />
+          
+    <meta property="og:title" content="Symposium Stockholm" />
+    <meta property="og:type" content="web" />
+    <meta property="og:image" content="/images/200.jpg" />
+    <meta property="og:url" content="http://symposium.co.se" />
+    <meta property="og:description" content="Be inspired by the latest tech, entertained by Sweden’s hottest musical exports and connect with the greatest minds of our time. This is a chance to invest in or partner up with tomorrow’s stars within tech and music before the rest of the world catches on." />
+        
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link href="/style.css?v=1.<?php echo rand(); ?>" rel="stylesheet" type="text/css" />
+
+        <script src="//use.typekit.net/xiz0jwa.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+
+    <script src="/js/jquery-2.1.1.js"></script>
+
+<script src="/js/video.js"></script>
+<script src="/js/bigvideo.js"></script>
+
+    <script src="/js/parallax.js"></script>
+    <script src="/js/jquery.snappoint-1.5.js"></script>
+    <script src="/js/modernizr.js"></script>
+    <script src="/js/this.js"></script>
+ <script src="/js/froogaloop.min.js"></script>
+
+    <link rel="stylesheet" href="/vendors/slicknav.css">
+
+<script>
+
+$(document).ready(function() {
+ var isDesktop = (function() {
+  return !('ontouchstart' in window) // works on most browsers 
+  || !('onmsgesturechange' in window); // works on ie10
+ })();
+ //edit, if you want to use this variable outside of this closure, or later use this:
+ window.isDesktop = isDesktop;
+ if( isDesktop ){ 
+$(function() {
+            var BV = new $.BigVideo({useFlashForFirefox:false});
+            BV.init();
+            if (Modernizr.touch) {
+                BV.show('/images/stockholm_skyline_grey.jpg');
+            } 
+
+            else {
+                BV.show([
+                { type: "video/mp4",  src: "http://jdesign.se/video/timelapse_h264_7mbps.mp4" },
+                { type: "video/webm", src: "http://jdesign.se/video/webm1mbps.webm" },
+                  { type: "video/ogg",  src: "http://jdesign.se/video/oggtest.ogg" }               
+            ], {ambient:true});
+            }
+        });
+
+  }
+});
+
+
+
+</script>
+
+
+    <link rel="stylesheet" href="/js/outdatedbrowser/outdatedbrowser.min.css">
+    <script src="/js/outdatedbrowser/outdatedbrowser.min.js"></script>
+<style type="text/css">
+.vjs-control-bar{opacity: 0;display:none;}
+#big-video-wrap {
+   z-index: -200;
+    background: none repeat scroll 0 0 black;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#fact-1{color: black;}
+#fact-3{color: black;}
+.logo{display: none;}
+
+@media (max-width: 1200px) {
+#welcome{background-image: url("/images/stockholm_skyline_grey.jpg");}
+#fact-1{background-image: url("/images/1920x1080px_capita.jpg");color: black;}
+#fact-2{background-image: url("/images/stockholm_skyline_grey.jpg");}
+#fact-3{background-image: url("/images/1920x1080px_thenordics.jpg");color: black;}
+#conclusion{background-image: url("/images/symposium_gradient_2_high.jpg");}
+  }
+</style>
+</head>
+<body class="">
+
+<div id="outdated" style="position:fixed;left:0;right:0;top:0;width:auto;padding:60px 0;">
+     <h6>Your browser is out-of-date!</h6>
+     <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update my browser now </a></p>
+     <p class="last" style="padding:60px;"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
+</div>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+
+<div class="logo"><a href="/"><img id="blacklogo" src="/images/Symposium_logo_bl.svg"><img id="whitelogo" src="/images/Symposium_logo_w.svg"></a></div>
+
+<ul id="menu" class="slicknav_menu">
+      <li><a href="/program">Program</a></li>
+      <li><a href="/brilliant-minds-conference">Brilliant Minds Conference</a></li>
+      <li><a href="/tickets">Tickets</a></li>
+      <li><a href="/contact-press">Contact / Press</a></li> 
+</ul>
+
+
+
+  <nav id="cd-vertical-nav" class="verticarlos">
+    <ul>
+      <li>
+        <a href="#welcome" data-number="1">
+          <span class="cd-dot"></span>
+          <span class="cd-label">Symposium</span>
+        </a>
+      </li>
+            <li>
+        <a href="#intro" data-number="2">
+          <span class="cd-dot"></span>
+          <span class="cd-label">Intro</span>
+        </a>
+      </li>
+      <li>
+        <a href="#fact-1" data-number="3">
+          <span class="cd-dot"></span>
+          <span class="cd-label">Fact 1</span>
+        </a>
+      </li>
+            <li>
+        <a href="#fact-2" data-number="4">
+          <span class="cd-dot"></span>
+          <span class="cd-label">Fact 2</span>
+        </a>
+      </li>
+            <li>
+        <a href="#fact-3" data-number="5">
+          <span class="cd-dot"></span>
+          <span class="cd-label">Fact 3</span>
+        </a>
+      </li>
+            <li>
+        <a href="#conclusion" data-number="6">
+          <span class="cd-dot"></span>
+          <span class="cd-label">Conclusion</span>
+        </a>
+      </li>
+
+    </ul>
+  </nav>
+
+
+
+
+
+
+
+<div class="ngwrap">
+    <div class="container">
+<!-- *************************************************************************************************************************************** -->
+
+
+<!-- *************************************************************************************************************************************** -->
+<section id="welcome" class="link welcome cd-section fillinside">
+<div class="splash-content">
+<div class="fade-left">  
+<div class="maxbredd">
+<a class="step1"></a>
+<h1><img src="/images/Symposium_logo_w.svg"></h1>
+<hr class="sep desktop"/>
+<h2 class="nom">Welcome to the Creative Capital of the World.</h2>
+<h3>JUNE 8-13 2015</h3>
+</div></div></div>
+
+<div class="scroll-arrow"><nav id="cd-vertical-nav" class="horizont"><ul><li><a href="#intro" data-number="2"><span id="scrollimg">IMAGE</span><span id="scrolltext">SCROLL DOWN</span></a></li></ul></nav></div>
+
+</section>
+<!-- *************************************************************************************************************************************** -->
+
+<style type="text/css">
+
+#intro .maxbredd {
+max-width: 1300px;
+}
+
+@media (max-width: 900px) {
+#intro, #intro .image-overlay, #intro .splash-content {
+  height: auto !important;
+  min-height: 500px;
+  position: static;
+}
+#intro .maxbredd {
+  padding: 160px 0;max-width: 1300px;display: inline-block;
+}
+  }
+</style>
+<section id="intro" class="intro cd-section fillinside" style="background:white;color:black;"><a class="step2"></a>
+<div class="image-overlay">
+<div class="splash-content">
+<div class="fade-left">  
+<div class="maxbredd">
+
+<div class="hundra">
+<div class="fifti">
+<div class="pmarg">
+<p>
+Symposium is a meeting ground for the world’s most innovative individuals to come together and experience the creative capital of the world - Stockholm, Sweden.
+</p>
+
+<p>
+On June 8-13, the first-ever Symposium will give participants a unique look at the technology, music, creativity and innovation that happens locally yet disrupts industries and changes culture globally.
+</p>
+<p>
+Throughout the week of Symposium, events include the Denniz Pop Awards, Polar Music Prize, Polar Talks, Scandinavian Music Summit, AVICII Fest, and Summerburst, alongside numerous dinners, artist showcases, receptions and after-parties.
+</p>
+</div>
+</div>
+
+<div class="fifti">
+  <div class="pmarg">
+<p>
+  The culminating event is the Brilliant Minds Conference. This two-day conference will bring together the world’s leaders in music, media and technology along with Swedish legends and her newest talents, in closed-door forums.  Participants will be inspired by the latest technology, entertained by the nation’s hottest musical exports, and connected with some of the brightest and most influential people from around the world.  But the real magic is in the unforeseen: the connections, ideas and conversations that the conference will generate.
+</p>
+
+
+</div>
+</div>
+</div>
+
+<p class="nom">
+<a href="/tickets" class="blackbtn">Join us for the inaugural <br/>Symposium Stockholm June 8-13 2015.</a>
+</p>
+
+</div></div></div></div>
+
+</section>
+
+
+
+<!-- *************************************************************************************************************************************** -->
+<style type="text/css">
+
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+
+<section id="vidintro" class="vidintro cd-section fillinside" style="background:black;color:white;"><a class="videocolor"></a>
+<div class="image-overlay">
+<div class="splash-content">
+<div class="fade-left">  
+<div class="maxbredd">
+<a class="videocolor"></a>
+<div class="videoWrapper">
+      <iframe src="https://player.vimeo.com/video/125244010?api=1&player_id=video&title=0&amp;byline=0&amp;" id="video" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>      
+<script type="text/javascript">
+var iframe = $('#video')[0],
+  player = $f(iframe);
+
+player.addEvent('ready', function() {   
+    player.addEvent('finish', onFinish);
+  });
+
+function onFinish(id, parent) {
+(function($) {
+    $(document).ready(function() {
+         $('html, body').animate({
+           'scrollTop':   $('#fact-1').offset().top
+         }, 600);
+    });
+})(jQuery);
+}
+</script>
+</div>
+</div></div></div></div>
+<a class="videocolor"></a>
+</section>
+<!-- *************************************************************************************************************************************** -->
+
+
+
+<!-- *************************************************************************************************************************************** -->
+<section id="fact-1" class="link fact-1 cd-section fillinside parallax-window" data-parallax="scroll" data-image-src="/images/1920x1080px_capita.jpg"><a class="step2"></a>
+<div class="image-overlay">
+<div class="splash-content">
+<div class="fade-left">  
+<div class="maxbredd">
+<a class="step2"></a>
+<h2>Sweden has the highest income per capita in the global music business.</h2>
+<h3 class="nom">FACT #1</h3>
+
+</div></div></div></div>
+<a class="step2"></a>
+</section>
+<!-- *************************************************************************************************************************************** -->
+
+<!-- *************************************************************************************************************************************** -->
+<section id="fact-2" class="fact-2 cd-section fillinside parallax-window" data-parallax="scroll" data-image-src="/images/stockholm_skyline_grey.jpg"><a class="step3"></a>
+<div class="image-overlay">
+<div class="splash-content">
+<div class="fade-left">  
+<div class="maxbredd">
+<a class="step3"></a>
+<h2>Stockholm ranks alongside Silicon Valley in billion-dollar listed companies per capita.</h2>
+<h3 class="nom">FACT #2</h3>
+
+</div></div></div></div>
+<a class="step3"></a>
+</section>
+<!-- *************************************************************************************************************************************** -->
+
+<!-- *************************************************************************************************************************************** -->
+<section id="fact-3" class="fact-3 cd-section fillinside snap parallax-window" data-parallax="scroll" data-image-src="/images/1920x1080px_thenordics.jpg"><a class="step4"></a>
+<div class="image-overlay">
+<div class="splash-content">
+<div class="fade-left">  
+<div class="maxbredd">
+<a class="step4"></a>
+<h2>The Nordics represent 3% of Europe's population, but 33% of its billion dollar exits.</h2>
+<h3 class="nom">FACT #3</h3>
+<div class="test"></div>
+</div></div></div></div>
+<a class="step4"></a>
+</section>
+<!-- *************************************************************************************************************************************** -->
+
+
+<!-- *************************************************************************************************************************************** -->
+<section id="conclusion" class="conclusion cd-section fillinside parallax-window" data-parallax="scroll" data-image-src="/images/symposium_gradient_2_high.jpg"><a class="step5"></a>
+<div class="image-overlay">
+<div class="splash-content">
+<div class="fade-left">  
+<div class="maxbredd">
+<a class="step5"></a>
+<h3>This is not just another music and tech event.</h3>
+<h2>Join us in the Creative Capital of the World.</h2>
+
+
+<p class="nom">SYMPOSIUM STOCKHOLM<br/>June 8-13 2015</p>
+
+</div></div></div></div>
+<a class="step5"></a>
+</section>
+<!-- *************************************************************************************************************************************** -->
+
+
+
+
+<!-- *************************************************************************************************************************************** -->
+</div>
+ </div>
+
+
+  <link href="/css/navdots.css" rel="stylesheet" type="text/css" />
+  <script src="/js/navdots.js"></script>
+
+
+
+<!-- Preloader -->
+<script type="text/javascript">
+    //<![CDATA[
+        $(window).load(function() { // makes sure the whole site is loaded
+            $('#status').fadeOut(); // will first fade out the loading animation
+            $('#preloader').delay(550).fadeOut('slow'); // will fade out the white DIV that covers the website.
+            $('body').delay(550).css({'overflow':'visible'});
+        })
+    //]]>
+</script> 
+
+<script type="text/javascript">
+//event listener: DOM ready
+function addLoadEvent(func) {
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function') {
+        window.onload = func;
+    } else {
+        window.onload = function() {
+            if (oldonload) {
+                oldonload();
+            }
+            func();
+        }
+    }
+}
+//call plugin function after DOM ready
+addLoadEvent(function(){
+    outdatedBrowser({
+        bgColor: '#f25648',
+        color: '#ffffff'
+    })
+});
+</script>
+
+<script src="/vendors/jquery.slicknav.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('#menu').slicknav();
+});
+</script>
+
+     <script src="/vendors/jquery.waypoints.min.js"></script>
+
+     <script type="text/javascript">
+$('.step1').waypoint(function() {
+  $( "body" ).addClass( "dark" );
+  $( "body" ).removeClass( "light" );
+});
+$('.videocolor').waypoint(function() {
+  $( "body" ).addClass( "dark" );
+  $( "body" ).removeClass( "light" );
+});
+$('.step2').waypoint(function() {
+  $( "body" ).addClass( "light" );
+  $( "body" ).removeClass( "dark" );
+});
+$('.step3').waypoint(function() {
+  $( "body" ).addClass( "dark" );
+  $( "body" ).removeClass( "light" );
+});
+$('.step4').waypoint(function() {
+  $( "body" ).addClass( "light" );
+  $( "body" ).removeClass( "dark" );
+});
+$('.step5').waypoint(function() {
+  $( "body" ).addClass( "dark" );
+  $( "body" ).removeClass( "light" );
+});
+     </script>
+
+</body>
+</html>
+<?php $_SESSION['once'] = true; ?>
