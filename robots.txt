@@ -1,2 +1,4 @@
-User-agent: *<br/>
-Disallow: /
+Allow: /*.css$
+Allow: /*.js$
+
+Sitemap: http://www.exempel.se/sitemap.xml
