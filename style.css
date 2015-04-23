@@ -189,7 +189,7 @@ span{color: white;}
   background: white;
   border: none;
   height: 4px;
-  margin: 60px auto 40px;
+  margin: 60px auto 55px;
 }
 .tg  {border-collapse:collapse;border-spacing:0;width: 100%;font-weight: normal;color: black;}
 .tg td,.tg th{padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
@@ -930,7 +930,7 @@ iframe {
   background: none repeat scroll 0 0 white;
   border: medium none;
   height: 4px;
-  margin: 43px auto 55px;
+  margin: 43px auto 40px;
   width: 11em;
 }
 
