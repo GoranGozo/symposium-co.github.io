@@ -1055,8 +1055,13 @@ iframe > .registration-steps {
 }
 .scroll-arrow{display: none;}
 }
-
+.desktoptext{display: block;}
+.handheldtext{display: none;}
 @media (max-width: 1200px) {
+.desktoptext{display: none;}
+.handheldtext{display: block;}
+
+
 .fifti > ul {
   margin: 25px auto;
 }
