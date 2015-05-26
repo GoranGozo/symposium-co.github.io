@@ -29,7 +29,7 @@ body {height: 100%;
 }
 .nom {margin:0 !important;}
 
-a {text-decoration:none;color: #fff;opacity: 0.8;font-style:italic;}
+a {text-decoration:none;color: #000;opacity: 0.8;font-style:italic;}
 a:hover{opacity: 1;}
 a:focus{text-decoration: none;}
 
@@ -39,7 +39,7 @@ h1 {font-size:3.5em;  font-weight:100;}
 
 h1,h2 {text-transform: uppercase;letter-spacing: 5px;}
 
-h3{font-size: 25px;}
+h3{font-size: 25px;margin: 0;}
 
 p {  font-size:20px;margin: 0 0 25px;font-weight: 400;}
 h1{margin: 0 0 20px;}
@@ -196,7 +196,7 @@ span{color: white;}
 }
 .tg  {border-collapse:collapse;border-spacing:0;width: 100%;font-weight: normal;color: black;float: left;}
 
-.tg td,.tg th{text-align:left;color:white;padding:10px 5px;border-style:solid;border-color:black;border-width:1px;overflow:hidden;word-break:normal;}
+.tg td,.tg th{text-align:left;padding:10px 5px;border-style:solid;border-color:black;border-width:1px;overflow:hidden;word-break:normal;}
 
 .tgbold{font-weight: bold;font-size: 20px;}
 .spander {
@@ -372,7 +372,7 @@ section{
   margin: 0 10px;
 }
 
-.pmarg p {text-align:left !important; font-size: inherit;}
+.pmarg p {text-align:left; font-size: inherit;}
 
 .scroll-arrow {
   bottom: 0;
