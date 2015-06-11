@@ -79,6 +79,15 @@ span{color: white;}
   display: inline-block;
 }
 
+.whitebtn{
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+
 .hundra {
   float: left;
   height: auto;
