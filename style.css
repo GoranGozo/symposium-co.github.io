@@ -143,7 +143,7 @@ span{color: white;}
   position: fixed;
   right: 60px;
   top: 113px;
-  width: 245px;
+  width: auto;
 }
 .slicknav_menutxt {
   font-size: 15px !important;
